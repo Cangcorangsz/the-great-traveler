@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>Playground2</title>
+    <style>
+        .container {
+            display: grid;
+            padding: 0;
+            margin: 0;
+            grid-template-areas: "header header"
+                "nav content"
+                "aside content"
+                "footer footer";
+            grid-template-columns: 1fr 3fr;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        header {
+            grid-area: header;
+            font-family: 'Roboto Slab', serif;
+            font-size: 60px;
+            text-align: center;
+            background-color: tomato;
+        }
+
+        nav {
+            font-size: medium;
+            grid-area: nav;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content {
+            grid-area: content;
+            margin: 0 0 0 40px;
+        }
+
+        aside {
+            grid-area: aside;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            font-weight: 300;
+            background-color: #666;
+            margin: 20px 0 20px 0;
+            grid-area: footer;
+        }
+
+        img {
+            float: right;
+            border: 5px tomato solid;
+        }
+
+        main {
+            text-indent: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>The Greet Traveler</header>
+        <nav>
+            <h3>NavBar</h3>
+            <ul>
+                <li><a href="/">Article 1</a></li>
+                <li><a href="/">Article 2</a></li>
+                <li><a href="/">Article 3</a></li>
+                <li><a href="/">Article 4</a></li>
+                <li><a href="/">Article 5</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <h2>About Atlantis in Popular Culture</h2>
+            <p>
+                Atlantis has captured the imagination of people throughout history. The story of this mythical island
+                has inspired numerous works of literature, art, and film. In Plato's dialogues, the account of Atlantis
+                provided by the great traveler has been interpreted and reimagined in various ways. Many writers,
+                including Jules Verne and H.P. Lovecraft, have incorporated Atlantis into their stories, adding to its
+                allure and mystery. Films like "Atlantis: The Lost Empire" have brought this legendary civilization to
+                the big screen, enchanting audiences with its rich visuals and intriguing narrative. Atlantis continues
+                to be a symbol of a lost world, sparking curiosity and speculation about ancient civilizations and their
+                hidden secrets.
+        </aside>
+        <div class="content">
+            <img src="./assets/images/The Great Traveler.png" alt="The Great Traveler">
+            <main>
+                <p>The great traveler was a legendary figure who explored many lands and cultures in the ancient world.
+                    He was said to have visited every continent and learned from the wisdom of different peoples. He
+                    wrote
+                    down his experiences and observations in a book that became a source of inspiration and knowledge
+                    for
+                    generations. The great traveler's name and origin are unknown, but some scholars believe he was born
+                    in
+                    Greece or Persia around the 6th century BC. His book, which is now lost, was translated into many
+                    languages and influenced the development of geography, history, and philosophy.
+                </p>
+                <p>
+                    One of the most remarkable stories in the great traveler's book is his encounter with the mysterious
+                    island of Atlantis. According to his account, he was sailing in the Atlantic Ocean when he was
+                    caught in
+                    a storm and shipwrecked on a land that was not on any map. There, he met a civilization that was
+                    advanced beyond anything he had ever seen. They had buildings of gold and silver, canals and
+                    bridges,
+                    and machines that could fly and dive. They also had a powerful army and navy that controlled the
+                    surrounding seas. The great traveler was welcomed by the king of Atlantis, who showed him the
+                    wonders of
+                    his kingdom and told him its history. He said that Atlantis was founded by the god Poseidon, who
+                    gave
+                    his sons ten portions of the island to rule. The Atlanteans lived in harmony with nature and the
+                    gods,
+                    and were wise and virtuous. But over time, they became corrupted by greed and ambition, and started
+                    to
+                    wage war against their neighbors. The gods were angry with their behavior and decided to punish them
+                    by
+                    sending a great cataclysm that sank the island into the ocean. The great traveler was lucky to
+                    escape
+                    before the disaster, and he managed to reach the mainland with some of his companions. He wrote down
+                    everything he saw and heard in Atlantis, hoping that his readers would learn from its fate.
+                </p>
+            </main>
+        </div>
+        <footer>@Cangcorangsz 2023</footer>
+    </div>
+</body>
+
+</html>
